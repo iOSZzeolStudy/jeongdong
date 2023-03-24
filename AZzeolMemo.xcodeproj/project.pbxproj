@@ -11,6 +11,9 @@
 		09022D3229C429F000DE6E49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09022D3129C429F000DE6E49 /* ContentView.swift */; };
 		09022D3429C429F000DE6E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09022D3329C429F000DE6E49 /* Assets.xcassets */; };
 		09022D3729C429F000DE6E49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09022D3629C429F000DE6E49 /* Preview Assets.xcassets */; };
+		09022D3E29C42C9700DE6E49 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09022D3D29C42C9700DE6E49 /* Model.swift */; };
+		09022D4429C4312A00DE6E49 /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09022D4329C4312A00DE6E49 /* SubView.swift */; };
+		095F92CD29CDBCBA0096C3CC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095F92CC29CDBCBA0096C3CC /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		09022D3129C429F000DE6E49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09022D3329C429F000DE6E49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09022D3629C429F000DE6E49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09022D3D29C42C9700DE6E49 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		09022D4329C4312A00DE6E49 /* SubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
+		095F92CC29CDBCBA0096C3CC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				09022D2F29C429F000DE6E49 /* AZzeolMemoApp.swift */,
 				09022D3129C429F000DE6E49 /* ContentView.swift */,
+				09022D4329C4312A00DE6E49 /* SubView.swift */,
+				095F92CC29CDBCBA0096C3CC /* DetailView.swift */,
+				09022D3D29C42C9700DE6E49 /* Model.swift */,
 				09022D3329C429F000DE6E49 /* Assets.xcassets */,
 				09022D3529C429F000DE6E49 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09022D3E29C42C9700DE6E49 /* Model.swift in Sources */,
+				09022D4429C4312A00DE6E49 /* SubView.swift in Sources */,
 				09022D3229C429F000DE6E49 /* ContentView.swift in Sources */,
+				095F92CD29CDBCBA0096C3CC /* DetailView.swift in Sources */,
 				09022D3029C429F000DE6E49 /* AZzeolMemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
